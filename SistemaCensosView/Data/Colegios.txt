@@ -1,0 +1,3 @@
+Colegio Alfonso Ugarte;Av Abancay;11123256;Ugel Lima ;1515;Secundaria;Privada;Mañana
+Colegio Jesus María;Av Salaverry;12154848;Ugel Lince;22222;Primaria ;Público;Mañana
+Colegio Maristas;Av Pershing;15453;Ugel Lima Sur;0268;Primaria;Privado;Tarde

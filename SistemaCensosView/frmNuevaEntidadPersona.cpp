@@ -1,0 +1,2 @@
+#include "frmNuevaEntidadPersona.h"
+

@@ -1,0 +1,477 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorUsuario.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorUsuario.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorRespuesta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorRespuesta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorPregunta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorPregunta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorFormularioCenso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorFormularioCenso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadUniversidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorEntidadUniversidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadPersona.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorEntidadPersona.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadColegio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorEntidadColegio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEmpresa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorEmpresa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidadxPregunta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorCensoxEntidadxPregunta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorCensoxEntidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCenso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorCenso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorAlternativa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorAlternativa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorCensador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|solutionrelative:SistemaCensosView\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEmpresa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorEmpresa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidadxPregunta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorCensoxEntidadxPregunta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorCensoxEntidad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCenso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorCenso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorCensador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorAlternativa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1F99D13-18A6-4C3A-88A1-498F78CF505D}|SistemaCensosController\\SistemaCensosController.vcxproj|solutionrelative:SistemaCensosController\\GestorAlternativa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB605159-B49C-4BD1-937F-D440AD94CF55}|SistemaCensosModel\\SistemaCensosModel.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosModel\\Censador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB605159-B49C-4BD1-937F-D440AD94CF55}|SistemaCensosModel\\SistemaCensosModel.vcxproj|solutionrelative:SistemaCensosModel\\Censador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmAgregarCensador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|solutionrelative:SistemaCensosView\\frmAgregarCensador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmMantCensador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|solutionrelative:SistemaCensosView\\frmMantCensador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\AgregarColegio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|solutionrelative:SistemaCensosView\\AgregarColegio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\AgregarColegio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|solutionrelative:SistemaCensosView\\AgregarColegio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmEditarUsuario.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{96A13979-3942-4C0D-87BB-4BC64840B024}|SistemaCensosView\\SistemaCensosView.vcxproj|solutionrelative:SistemaCensosView\\frmEditarUsuario.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\main.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosView\\main.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\main.cpp",
+              "RelativeToolTip": "SistemaCensosView\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T19:58:10.216Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorUsuario.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorUsuario.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorUsuario.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorUsuario.cpp*",
+              "RelativeToolTip": "SistemaCensosController\\GestorUsuario.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T23:37:48.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestorRespuesta.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorRespuesta.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorRespuesta.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorRespuesta.cpp",
+              "RelativeToolTip": "SistemaCensosController\\GestorRespuesta.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T23:37:26.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestorPregunta.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorPregunta.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorPregunta.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorPregunta.cpp",
+              "RelativeToolTip": "SistemaCensosController\\GestorPregunta.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T23:37:18.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestorFormularioCenso.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorFormularioCenso.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorFormularioCenso.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorFormularioCenso.cpp",
+              "RelativeToolTip": "SistemaCensosController\\GestorFormularioCenso.cpp",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T23:37:12.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GestorEntidadPersona.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadPersona.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorEntidadPersona.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadPersona.cpp*",
+              "RelativeToolTip": "SistemaCensosController\\GestorEntidadPersona.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:34:56.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GestorEntidadUniversidad.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadUniversidad.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorEntidadUniversidad.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadUniversidad.cpp*",
+              "RelativeToolTip": "SistemaCensosController\\GestorEntidadUniversidad.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:34:58.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GestorEntidadColegio.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadColegio.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorEntidadColegio.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEntidadColegio.cpp*",
+              "RelativeToolTip": "SistemaCensosController\\GestorEntidadColegio.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:34:51.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GestorEmpresa.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEmpresa.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorEmpresa.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEmpresa.cpp*",
+              "RelativeToolTip": "SistemaCensosController\\GestorEmpresa.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:34:41.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GestorCensoxEntidadxPregunta.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidadxPregunta.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorCensoxEntidadxPregunta.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidadxPregunta.cpp",
+              "RelativeToolTip": "SistemaCensosController\\GestorCensoxEntidadxPregunta.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:34:38.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GestorCensoxEntidad.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidad.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorCensoxEntidad.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidad.cpp",
+              "RelativeToolTip": "SistemaCensosController\\GestorCensoxEntidad.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:34:31.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GestorCenso.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCenso.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorCenso.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCenso.cpp",
+              "RelativeToolTip": "SistemaCensosController\\GestorCenso.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:33:15.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GestorAlternativa.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorAlternativa.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorAlternativa.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorAlternativa.cpp",
+              "RelativeToolTip": "SistemaCensosController\\GestorAlternativa.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:34:03.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GestorCensador.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensador.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorCensador.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensador.cpp*",
+              "RelativeToolTip": "SistemaCensosController\\GestorCensador.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:26:08.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GestorEmpresa.h",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEmpresa.h",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorEmpresa.h",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorEmpresa.h",
+              "RelativeToolTip": "SistemaCensosController\\GestorEmpresa.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T22:33:58.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GestorCensoxEntidadxPregunta.h",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidadxPregunta.h",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorCensoxEntidadxPregunta.h",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidadxPregunta.h",
+              "RelativeToolTip": "SistemaCensosController\\GestorCensoxEntidadxPregunta.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T22:33:53.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GestorCensoxEntidad.h",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidad.h",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorCensoxEntidad.h",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensoxEntidad.h",
+              "RelativeToolTip": "SistemaCensosController\\GestorCensoxEntidad.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T22:33:51.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GestorAlternativa.h",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorAlternativa.h",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorAlternativa.h",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorAlternativa.h",
+              "RelativeToolTip": "SistemaCensosController\\GestorAlternativa.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T22:33:42.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GestorCensador.h",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensador.h",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorCensador.h",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCensador.h",
+              "RelativeToolTip": "SistemaCensosController\\GestorCensador.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T22:33:37.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GestorCenso.h",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCenso.h",
+              "RelativeDocumentMoniker": "SistemaCensosController\\GestorCenso.h",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosController\\GestorCenso.h",
+              "RelativeToolTip": "SistemaCensosController\\GestorCenso.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T22:33:28.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Censador.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosModel\\Censador.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosModel\\Censador.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosModel\\Censador.cpp",
+              "RelativeToolTip": "SistemaCensosModel\\Censador.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:27:32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmAgregarCensador.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmAgregarCensador.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosView\\frmAgregarCensador.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmAgregarCensador.cpp",
+              "RelativeToolTip": "SistemaCensosView\\frmAgregarCensador.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:25:57.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmMantCensador.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmMantCensador.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosView\\frmMantCensador.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmMantCensador.cpp",
+              "RelativeToolTip": "SistemaCensosView\\frmMantCensador.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T22:25:41.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AgregarColegio.cpp",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\AgregarColegio.cpp",
+              "RelativeDocumentMoniker": "SistemaCensosView\\AgregarColegio.cpp",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\AgregarColegio.cpp",
+              "RelativeToolTip": "SistemaCensosView\\AgregarColegio.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T20:01:46.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AgregarColegio.h [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\AgregarColegio.h",
+              "RelativeDocumentMoniker": "SistemaCensosView\\AgregarColegio.h",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\AgregarColegio.h [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaCensosView\\AgregarColegio.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T20:01:43.201Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmEditarUsuario.h [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmEditarUsuario.h",
+              "RelativeDocumentMoniker": "SistemaCensosView\\frmEditarUsuario.h",
+              "ToolTip": "D:\\PUCP\\cursos 2020-2 virtual\\LPOO C\u002B\u002B\\00. PROYECTO FINAL\\SistemaCensosView\\frmEditarUsuario.h [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaCensosView\\frmEditarUsuario.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T19:58:58.92Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

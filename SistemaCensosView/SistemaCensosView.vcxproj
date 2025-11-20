@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{96A13979-3942-4C0D-87BB-4BC64840B024}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>SistemaCensosView</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>mkdir "$(TargetDir)Data" 2&gt;nul
+xcopy "$(ProjectDir)Data\*.txt" "$(TargetDir)Data\" /Y /I /D
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaCensosController\SistemaCensosController.vcxproj">
+      <Project>{c1f99d13-18a6-4c3a-88a1-498f78cf505d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SistemaCensosModel\SistemaCensosModel.vcxproj">
+      <Project>{bb605159-b49c-4bd1-937f-d440ad94cf55}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AgregarColegio.cpp" />
+    <ClCompile Include="AgregarPersona.cpp" />
+    <ClCompile Include="AgregarUniversidad.cpp" />
+    <ClCompile Include="frmAgregarCensador.cpp" />
+    <ClCompile Include="frmAgregarEmpresa.cpp" />
+    <ClCompile Include="frmEditarAlternativa.cpp" />
+    <ClCompile Include="frmEditarCensador.cpp" />
+    <ClCompile Include="frmEditarCenso.cpp" />
+    <ClCompile Include="frmEditarColegio.cpp" />
+    <ClCompile Include="frmEditarEmpresa.cpp" />
+    <ClCompile Include="frmEditarEntidadPersona.cpp" />
+    <ClCompile Include="frmEditarFormulario.cpp" />
+    <ClCompile Include="frmEditarPregunta.cpp" />
+    <ClCompile Include="frmEditarUniversidad.cpp" />
+    <ClCompile Include="frmEditarUsuario.cpp" />
+    <ClCompile Include="frmIniciarCensoxEntidad.cpp" />
+    <ClCompile Include="frmLogin.cpp" />
+    <ClCompile Include="frmMantAlternativas.cpp" />
+    <ClCompile Include="frmMantCensador.cpp" />
+    <ClCompile Include="frmMantCensos.cpp" />
+    <ClCompile Include="frmMantEmpresas.cpp" />
+    <ClCompile Include="frmMantEntidadColegio.cpp" />
+    <ClCompile Include="frmMantEntidadPersona.cpp" />
+    <ClCompile Include="frmMantEntidadUniversidad.cpp" />
+    <ClCompile Include="frmMantFormulario.cpp" />
+    <ClCompile Include="frmMantRespuestas.cpp" />
+    <ClCompile Include="frmMantUsuario.cpp" />
+    <ClCompile Include="frmNuevaAlternativa.cpp" />
+    <ClCompile Include="frmNuevaEmpresa.cpp" />
+    <ClCompile Include="frmNuevaEntidadPersona.cpp" />
+    <ClCompile Include="frmNuevaPregunta.cpp" />
+    <ClCompile Include="frmNuevaUniversidad.cpp" />
+    <ClCompile Include="frmNuevoCensador.cpp" />
+    <ClCompile Include="frmNuevoCenso.cpp" />
+    <ClCompile Include="frmNuevoColegio.cpp" />
+    <ClCompile Include="frmNuevoFormulario.cpp" />
+    <ClCompile Include="frmNuevoUsuario.cpp" />
+    <ClCompile Include="frmPreguntas.cpp" />
+    <ClCompile Include="frmPrincipal.cpp" />
+    <ClCompile Include="frmRealizarFormulario.cpp" />
+    <ClCompile Include="frmVerRespuesta.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AgregarColegio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AgregarPersona.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AgregarUniversidad.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmAgregarCensador.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmAgregarEmpresa.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarAlternativa.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarCensador.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarCenso.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarColegio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarEmpresa.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarEntidadPersona.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarFormulario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarPregunta.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarUniversidad.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarUsuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmIniciarCensoxEntidad.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmLogin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantAlternativas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantCensador.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantCensos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantEmpresas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantEntidadColegio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantEntidadPersona.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantEntidadUniversidad.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantFormulario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantRespuestas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMantUsuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaAlternativa.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaEmpresa.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaEntidadPersona.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaPregunta.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaUniversidad.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoCensador.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoCenso.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoColegio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoFormulario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoUsuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPreguntas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPrincipal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmRealizarFormulario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmVerRespuesta.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AgregarColegio.resx">
+      <DependentUpon>AgregarColegio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarPersona.resx">
+      <DependentUpon>AgregarPersona.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarUniversidad.resx">
+      <DependentUpon>AgregarUniversidad.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarCensador.resx">
+      <DependentUpon>frmAgregarCensador.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarEmpresa.resx">
+      <DependentUpon>frmAgregarEmpresa.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarAlternativa.resx">
+      <DependentUpon>frmEditarAlternativa.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarCenso.resx">
+      <DependentUpon>frmEditarCenso.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarColegio.resx">
+      <DependentUpon>frmEditarColegio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarEmpresa.resx">
+      <DependentUpon>frmEditarEmpresa.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarEntidadPersona.resx">
+      <DependentUpon>frmEditarEntidadPersona.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarFormulario.resx">
+      <DependentUpon>frmEditarFormulario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarPregunta.resx">
+      <DependentUpon>frmEditarPregunta.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarUniversidad.resx">
+      <DependentUpon>frmEditarUniversidad.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarUsuario.resx">
+      <DependentUpon>frmEditarUsuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIniciarCensoxEntidad.resx">
+      <DependentUpon>frmIniciarCensoxEntidad.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantCensos.resx">
+      <DependentUpon>frmMantCensos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantEmpresas.resx">
+      <DependentUpon>frmMantEmpresas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantEntidadColegio.resx">
+      <DependentUpon>frmMantEntidadColegio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantEntidadUniversidad.resx">
+      <DependentUpon>frmMantEntidadUniversidad.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantFormulario.resx">
+      <DependentUpon>frmMantFormulario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantRespuestas.resx">
+      <DependentUpon>frmMantRespuestas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantUsuario.resx">
+      <DependentUpon>frmMantUsuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaAlternativa.resx">
+      <DependentUpon>frmNuevaAlternativa.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaEmpresa.resx">
+      <DependentUpon>frmNuevaEmpresa.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaPregunta.resx">
+      <DependentUpon>frmNuevaPregunta.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaUniversidad.resx">
+      <DependentUpon>frmNuevaUniversidad.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoCenso.resx">
+      <DependentUpon>frmNuevoCenso.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoColegio.resx">
+      <DependentUpon>frmNuevoColegio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoFormulario.resx">
+      <DependentUpon>frmNuevoFormulario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoUsuario.resx">
+      <DependentUpon>frmNuevoUsuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPreguntas.resx">
+      <DependentUpon>frmPreguntas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRealizarFormulario.resx">
+      <DependentUpon>frmRealizarFormulario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerRespuesta.resx">
+      <DependentUpon>frmVerRespuesta.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\Alternativas.txt">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Text>
+    <Text Include="Data\Censador.txt" />
+    <Text Include="Data\Clases.txt" />
+    <Text Include="Data\Colegios.txt" />
+    <Text Include="Data\Empresas.txt" />
+    <Text Include="Data\EntidadPersona.txt" />
+    <Text Include="Data\Preguntas.txt" />
+    <Text Include="Data\Universidades.txt" />
+    <Text Include="Data\Usuarios.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
