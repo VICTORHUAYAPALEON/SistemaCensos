@@ -1,15 +1,15 @@
-# Sistema de Censos
+# Census Management System (Sistema de Censos)
 
-Proyecto en C++ que implementa un sistema de gestión de censos inspirado en los procesos del INEI.  
-Permite administrar entidades como personas, universidades, escuelas/colegios, empresas, preguntas y formularios censales, utilizando una arquitectura **Model–View–Controller (MVC)** desarrollada en **C++/CLI con Windows Forms**.
+C++ project implementing a census management system inspired by the workflows of Peru’s National Institute of Statistics and Informatics (INEI).
+The system manages entities such as people, universities, schools, companies, questions, and census forms using a Model–View–Controller (MVC) architecture developed in C++/CLI with Windows Forms.
 
-El objetivo fue construir un software completo que gestione información de diferentes tipos de censos, con operaciones CRUD, persistencia en archivos de texto y múltiples interfaces gráficas.
+The goal was to build a complete desktop application capable of handling multiple census types, supporting CRUD operations, text-file persistence, and multiple graphical user interfaces.
 
 ---
 
-## Funcionalidades principales
+## Main Features
 
-- Gestión de entidades (altas, bajas, modificaciones) de:
+- Entity management (create, update, delete) for:
   - Personas  
   - Universidades  
   - Escuelas / Colegios  
@@ -17,55 +17,65 @@ El objetivo fue construir un software completo que gestione información de dife
   - Censadores  
   - Preguntas  
   - Formularios de censo
-- Pantalla de **login** basada en `Usuarios.txt`.
-- Validaciones básicas de entrada y navegación entre formularios.
+- Login screen based on `Usuarios.txt`.
+- Basic input validation and structured navigation between forms.
 
 ---
 
-## Persistencia de datos
+## Data Persistence
 
-- Lectura y escritura en archivos `.txt` ubicados en la carpeta `Data/`.
-- Carga automática de datos al iniciar la aplicación.
-- Actualización inmediata de los archivos al registrar o modificar entidades.
+- Read/write operations using `.txt` files stored in the `Data/` directory.
+- Automatic data loading at application startup.
+- Immediate file updates when entities are created or modified.
 
 ---
 
-## Interfaz gráfica
+## Graphic User Interface
 
 - Aplicación de escritorio en **Windows Forms**.
+- Desktop application built with Windows Forms.
 - Ventanas específicas para cada tipo de entidad (registro, edición, eliminación).
-- Organización por formularios según mantenimiento (Personas, Universidades, Empresas, etc.).
+- Dedicated windows for each entity type (registration, editing, deletion).
+- Form-based organization by functional area (Personas, Universidades, Empresas, etc.).
 
 ---
 
-## Arquitectura MVC
+## MVC Architecture
 
 - **Model**  
-  Entidades y estructuras de datos del sistema de censos (personas, universidades, preguntas, etc.).
+  Data entities and structures representing census information (personas, universidades, preguntas, etc.).
 
 - **Controller**  
-  Lógica de negocio y gestión de archivos de texto (lectura/escritura, búsqueda, actualización de registros).
+  Business logic and text-file management (lectura/escritura, búsqueda, actualización de registros).
 
 - **View**  
-  Interfaces gráficas en Windows Forms que interactúan con el usuario y llaman a los controladores.
+  Windows Forms interfaces that interact with users and invoke controller logic.
 
 ---
 
-## Estructura del repositorio
+## Repository Structure
 
-- `SistemaCensosModel/` – Clases de modelo y entidades.
-- `SistemaCensosController/` – Lógica de negocio y manejo de archivos.
-- `SistemaCensosView/` – Formularios de Windows Forms (UI).
-- `Data/` – Archivos `.txt` con la información de ejemplo.
-- `Docs/` – Diagrama de clases y documentación del proyecto.
+- `SistemaCensosModel/` – Data models and entity classes.
+- `SistemaCensosController/` – Business logic and file handling.
+- `SistemaCensosView/` – Windows Forms interfaces (UI).
+- `Data/` – Sample `.txt` datasets.
+- `Docs/` – Class diagram and project documentation.
 
 ---
 
-## Equipo
+## Applications
+
+- Census and survey data management systems
+- Desktop CRUD applications with structured persistence
+- Educational reference for MVC architecture in C++/CLI
+
+---
+
+## Team
 
 - **Victor Javier Huayapa Leon**  
 - **Javier Rodrigo Mendoza Huamán**  
 - **Eric Octavio Palomino Cáceres**  
 - **Diego Samir Hancco Rodríguez**
 
-Proyecto desarrollado como trabajo final del curso de Lenguaje de Programación Orientado a Objetos (LPOO) – PUCP.
+Final project developed for the Object-Oriented Programming Language course (LPOO) – PUCP.
